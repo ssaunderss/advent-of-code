@@ -10,9 +10,6 @@ import (
 func main() {
 	cleanedInput := ReadInputFile("input-1.txt")
 	output := calcOverlapsV2(cleanedInput)
-	// rawPoints := CalculatePoints(cleanedSlice)
-	// rawPoints := CalculatePointsV2(cleanedSlice)
-	// output := AggregatePoints(rawPoints)
 	fmt.Println(output)
 }
 
